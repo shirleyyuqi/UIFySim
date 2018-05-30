@@ -1,0 +1,47 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFFFFFFF">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text name="btitle" lgOff="true" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="10"/>
+        <List name="list" scroll="false" itemheight="50" itemlinestyle="1" itemselectstyle="1" itemaccessorytype="1" height="350" bkcolor="#FFECECEC" deselect="1">
+            <ListSection>
+                <ListElement tag="0">
+                    <ImageView src="ic_drawer_about.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bdevinfo" text="IDS_DEVINFO" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="1">
+                    <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bchangpwd" text="IDS_CHANGPWD" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="2">
+                    <ImageView src="ic_dev_setting_pir.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bmotiondt" text="IDS_MOTIONDT" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="3">
+                    <ImageView src="ic_dev_setting_mirror_flip.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bmirrorflip" text="IDS_MIRROR_FLIP" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="4">
+                    <ImageView src="ic_dev_setting_freq.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bpowerfreq" text="IDS_POWERFREQ" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="5">
+                    <ImageView src="ic_dev_setting_volume.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bvolumeset" text="IDS_VOLUMESET" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+                <ListElement tag="6">
+                    <ImageView src="share_pressed.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                    <Text name="bvolumeset" text="IDS_SHARED" textIndent="20" textcolor="#FF555555" font="15"/>
+                </ListElement>
+            </ListSection>
+        </List>
+    </LayoutView>
+</window>

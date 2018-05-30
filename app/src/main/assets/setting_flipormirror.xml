@@ -1,0 +1,20 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFFFFFFF">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text name="btitle" text="IDS_MIRROR_FLIP" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="30"/>
+        <ImageView name="Video" mode="1" height="220" bkcolor="#FF333333"></ImageView>
+        <LayoutView inset="20,30,20,0">
+            <Button name="mirror" text="IDS_MIRROR" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45" margin="10,0,20,0"/>
+            <Button name="flip" text="IDS_FLIP" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45" margin="10,0,20,0"/>
+        </LayoutView>
+    </LayoutView>
+</window>

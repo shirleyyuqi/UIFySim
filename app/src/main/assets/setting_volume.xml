@@ -1,0 +1,23 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFfcfcfc">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text name="btitle" text="IDS_VOLUMESET" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="40"/>
+        <LayoutView height="150" style="1">
+            <Text text="IDS_VOLUM" textIndent="40" height="30"/>
+            <LayoutView height="30"/>
+            <Slider name="vol" margin="20,0,40,0"/>
+            <LayoutView height="30"/>
+            <Button name="nextBt" text="IDS_SAVE" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45" margin="20,0,40,0"/>
+        </LayoutView>
+        <ImageView name="QRCode"></ImageView>
+    </LayoutView>
+</window>

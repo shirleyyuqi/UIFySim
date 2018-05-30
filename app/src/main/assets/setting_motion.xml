@@ -1,0 +1,82 @@
+<window>
+    <LayoutView style="3">
+        <LayoutView style="1" bkcolor="#FFFFFFFF">
+            <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+                <LayoutView height="20"/>
+                <LayoutView bkcolor="#FF12b7f5">
+                    <LayoutView width="80">
+                        <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                    </LayoutView>
+                    <Text name="btitle" text="IDS_MOTIONDT" align="center" font="19" textcolor="#ffffffff"/>
+                    <LayoutView width="80"></LayoutView>
+                </LayoutView>
+            </LayoutView>
+            <LayoutView height="10"/>
+            <List scroll="false" itemheight="50" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="0" height="100" bkcolor="#FFECECEC">
+                <ListSection>
+                    <ListElement>
+                        <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text  text="IDS_ENABLE" textIndent="20" textcolor="#FF555555" font="15"/>
+                        <LayoutView />
+                        <Switch name="bEnable" height="30" width="50" margin="0,10,0,0" ontext="" offtext=""/>
+                        <LayoutView width="20"/>
+                    </ListElement>
+                    <ListElement>
+                        <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text  text="IDS_SENSITIVITY" textIndent="20" textcolor="#FF555555" font="15"/>
+                        <LayoutView />
+                        <LayoutView margin="-20,10,0,0" corner="5" width="88" height="30" border="1px solid #FF0000aa">
+                            <Option name="SensiH" selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_HIGHT 15 center #FFAAAAAA #FFFFFFFF" width="30" height="30" border="1px solid #FF0000FF" group="b" tag="1" selected="1"/>
+                            <Option name="SensiC" selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_MIDDLE 15 center #FFAAAAAA #FFFFFFFF" width="30" height="30" border="1px solid #FF0000FF" group="b" tag="2" margin="-1,0,0,0"/>
+                            <Option name="SensiL" selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_LOWER 15 center #FFAAAAAA #FFFFFFFF" width="30" height="30" border="1px solid #FF0000FF" group="b" tag="3" margin="-2,0,0,0"/>
+                        </LayoutView>
+                    </ListElement>
+                </ListSection>
+            </List>
+            <List name="list" scroll="false" itemheight="50" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="0" height="200" bkcolor="#FFECECEC">
+                <ListSection>
+                    <ListElement>
+                        <LayoutView />
+                        <LayoutView margin="0,10,0,0" corner="5" width="309" height="30" border="1px solid #FF0000aa">
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X0 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="0" selected="1"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X1 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="1"  margin="-1,0,0,0"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X2 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="2"  margin="-2,0,0,0"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X3 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="3"  margin="-3,0,0,0"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X4 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="4"  margin="-4,0,0,0"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X5 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="5"  margin="-5,0,0,0"/>
+                            <Option selectedBkColor="#FF000088" mode="1" labelStyle="1" label="15 IDS_X6 15 center #FFAAAAAA #FFFFFFFF" width="45" height="30" border="1px solid #FF0000FF" group="a" tag="6"  margin="-6,0,0,0"/>
+                        </LayoutView>
+                        <LayoutView />
+                    </ListElement>
+                    <ListElement name="ceEnable">
+                        <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text text="IDS_ENABLE" textIndent="20" textcolor="#FF555555" font="15"/>
+                    </ListElement>
+                    <ListElement>
+                        <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text text="IDS_STARTTM" textIndent="20" textcolor="#FF555555" font="15"/>
+                        <Text name="starttm" align="center" textcolor="#FF555555" font="15"/>
+                    </ListElement>
+                    <ListElement>
+                        <ImageView src="ic_dev_setting_change_password.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text text="IDS_ENDTM" textIndent="20" textcolor="#FF555555" font="15"/>
+                        <Text name="endtm" align="center" textcolor="#FF555555" font="15"/>
+                    </ListElement>
+                </ListSection>
+            </List>
+            <LayoutView height="30"/>
+            <Button margin="20,0,40,0" name="nextBt" text="IDS_SAVE" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45"/>
+        </LayoutView>
+        <LayoutView name="alert" bkcolor="#55888888" tapEvent="1" hidden="true">
+            <LayoutView name="date" height="180" style="1" bkcolor="#55CCCCCC">
+                <LayoutView height="40" bkcolor="#66FFFFFF">
+                    <LayoutView />
+                    <Button name="dateOk" margin="-10,0,0,0" text="IDS_COMP" align="center" width="80" textcolor="#FF0000FF"/>
+                </LayoutView>
+                <LayoutView />
+                <Time height="100" name="time" mode="0"/>
+                <LayoutView />
+            </LayoutView>
+        </LayoutView>
+    </LayoutView>
+</window>

@@ -1,0 +1,58 @@
+<window>
+    <LayoutView style="3">
+        <LayoutView style="1" bkcolor="#FFECECEC">
+            <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+                <LayoutView height="20"/>
+                <LayoutView bkcolor="#FF12b7f5">
+                    <LayoutView width="80">
+                        <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                    </LayoutView>
+                    <Text text="IDS_SETTING" align="center" font="19" textcolor="#ffffffff"/>
+                    <LayoutView width="80"></LayoutView>
+                </LayoutView>
+            </LayoutView>
+            <LayoutView height="10"/>
+            <List name="list" scroll="false" itemheight="60" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="1" height="130" bkcolor="#FFECECEC">
+                <ListSection>
+                    <ListElement>
+                        <ImageView src="setting_language.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text name="tname" text="IDS_LANCHANGE" textIndent="20" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                   <!-- <ListElement accessorytype="0">
+                        <ImageView src="setting_aboutus.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text name="tname" text="IDS_ALLOWWIF" textIndent="20" textcolor="#FF555555" font="18"/>
+                        <Switch width="60" height="30" margin="-10,15,0,0" ontext="" offtext=""/>
+                    </ListElement>
+                    <ListElement accessorytype="0">
+                        <ImageView src="setting_aboutus.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text name="tname" text="IDS_ALLOW34G" textIndent="20" textcolor="#FF555555" font="18"/>
+                        <Switch width="60" height="30" margin="-10,15,0,0" ontext="" offtext=""/>
+                    </ListElement>-->
+                </ListSection>
+                <ListSection secheight="10,0">
+                    <ListElement accessorytype="0">
+                        <ImageView src="setting_aboutus.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text name="tname" text="IDS_APPVER" textIndent="20" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                </ListSection>
+            </List>
+        </LayoutView>
+        <LayoutView name="alert" bkcolor="#55888888" tapEvent="1" hidden="true">
+            <List scroll="false" name="listLan" itemheight="60" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="0" height="190" bkcolor="#FFECECEC">
+                <ListSection>
+                    <ListElement>
+                        <Text text="中文" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                    <ListElement>
+                        <Text text="English" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                </ListSection>
+                <ListSection secheight="10,0">
+                    <ListElement>
+                        <Text text="IDS_CANCEL" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                </ListSection>
+            </List>
+        </LayoutView>
+    </LayoutView>
+</window>

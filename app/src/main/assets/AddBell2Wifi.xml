@@ -1,0 +1,25 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFCCCCCC">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text text="IDS_ADD2_TITLE" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="10"/>
+        <LayoutView style="1" inset="20, 0, 20, 0">
+            <Text text="IDS_INPUTWIFI_TIP" align="center" height="80"/>
+            <Edit name="ssid" place="IDS_INPUTWIFI_SSID" height="50" bkcolor="#FFFFFFFF" leftview="image {5,20,20} setting_aboutus.png" textIndent="10"></Edit>
+            <LayoutView height="10"/>
+            <Edit name="pwd" password="true" place="IDS_INPUTWIFI_PWD" height="50" bkcolor="#FFFFFFFF" leftview="image {5,20,20} setting_aboutus.png" textIndent="10"></Edit>
+            <LayoutView height="10" />
+            <Button text="IDS_WIFI_CFG" height="40" align="center" linestyle="1" />
+            <LayoutView height="30" />
+            <Button name="nextBt" text="IDS_CONNECT_WIFI" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45"/>
+        </LayoutView>
+    </LayoutView>
+</window>

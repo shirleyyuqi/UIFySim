@@ -1,0 +1,32 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFFFFFFF">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text text="IDS_ADD1_TITLE" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="10"/>
+        <LayoutView style="1">
+           <Text text="IDS_CATREDLED" textIndent="10" font="18" height="70" align="center"/>
+           <LayoutView height="30"/>
+           <LayoutView>
+               <Gif name="bell" bkcolor="#FFFFFFFF" mode="1" src="bellflash"></Gif>
+           </LayoutView>
+           <LayoutView height="30"/>
+           <Button name="brednflash" linestyle="1" height="40" align="center" textcolor="#FFA8A8A8" text="IDS_REDLEDNFLASH"></Button>
+           <LayoutView height="50"></LayoutView>
+           <LayoutView height="70">
+               <LayoutView width="40"></LayoutView>
+               <Button name="bredflash" align="center" corner="2" height="45" bkcolor="#FF30C37C" hotcolor="#FF269C63" text="IDS_REDLEDFLASH" textcolor="#FFFFFFFF"></Button>
+               <LayoutView width="40"></LayoutView>
+           </LayoutView>
+           <Button name="bonline" z="1" height="20" align="center" textcolor="#FF0000FF" text="IDS_ADDLINE"></Button>
+           <LayoutView height="20"></LayoutView>
+        </LayoutView>
+    </LayoutView>
+</window>

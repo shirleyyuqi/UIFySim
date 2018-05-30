@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lan>
+    <IDS_NETCONFIG text="Network Configuration"/>
+    <IDS_SETTING text="System settings"/>
+    <IDS_USERCENTER text="Personal center"/>
+    <IDS_VIDEO text="doorbell"/>
+    <IDS_MY text="mine"/>
+    <IDS_LIB text="Demo"/>
+    <IDS_CANCEL text="cancel"/>
+    <IDS_OK text="ok"/>
+    <IDS_DEVLIST text="Device List"/>
+    <IDS_PIC text="photo"/>
+    <IDS_REC text="Record"/>
+    <IDS_ONLINE text="Online"/>
+    <IDS_OFFLINE text="Online..."/>
+    <IDS_QUERIING text="querying"/>
+    <IDS_ZBAR_PHOTO text="Two-dimensional code recognition"/>
+    <IDS_ZBAR_LED text="Fill light"/>
+    <IDS_ZBAR_ADD text="Manually enter"/>
+    <IDS_WARN text="en警告" />
+    <IDS_MSG text="en消息"/>
+    <IDS_PUSHMSG0 text="en接听"/>
+    <IDS_PUSHMSG1 text="en拒接"/>
+    <IDS_DELETE_TIP text="en你是否删除该设备?设备删除时该设备所以相关信息将会全部清除，请谨慎操作"/>
+    
+    <IDS_APPNAME text="APP client"/>
+    <IDS_APPVER text="Version: 1.0"/>
+    
+    <IDS_PUSH_TOLIVE text="Slide to answer"/>
+    
+    <IDS_ABOUTUS text="about us"/>
+    <IDS_LANCHANGE text="Language"/>
+    <IDS_ALLOWWIF text="Allowed to use under wifi"/>
+    <IDS_ALLOW34G text="Allowed to use under 3G/4G"/>
+    
+    <IDS_OLDPWD text="old password"/>
+    <IDS_NEWPWD text="new password"/>
+    <IDS_PASSWORD text="password"/>
+    <IDS_PASSWORD_SURE text="confirm password"/>
+    <IDS_NEXT text="The next step"/>
+    <IDS_ENABLE text="Enable"/>
+    <IDS_SENSITIVITY text="Sensitivity"/>
+    <IDS_HIGHT text="high"/>
+    <IDS_MIDDLE text="middle"/>
+    <IDS_LOWER text="low"/>
+    
+    <IDS_X0 text="Sunday"/>
+    <IDS_X1 text="Monday"/>
+    <IDS_X2 text="Tuesday"/>
+    <IDS_X3 text="Wednesday"/>
+    <IDS_X4 text="Thursday"/>
+    <IDS_X5 text="Friday"/>
+    <IDS_X6 text="Saturday"/>
+    <IDS_TM text="HHhour mmminute"/>
+    <IDS_TM2 text="%dhour %dminute"/>
+    
+    <IDS_STARTTM text="Starting time"/>
+    <IDS_ENDTM text="End Time"/>
+    <IDS_COMP text="carry out" />
+    
+    <IDS_FLIP text="Flip"/>
+    <IDS_MIRROR text="Image"/>
+    <IDS_SAVE text="save"/>
+    
+    <!-- sd card info -->
+    <IDS_CARDSIZE text="Memory card size"/>
+    <IDS_CARDINFO text="Memory card information"/>
+    <IDS_CARDTIME text="About video length"/>
+    <IDS_FORMAT text="format"/>
+    <IDS_OWRECORD text="Loop recording"/>
+    <IDS_CARDTIME_V text="%d day"/>
+    <IDS_CARDSIZE_V text="%.1f G / %.1f G"/>
+    
+    <!-- Bell Setting -->
+    <IDS_DEVINFO text="Device Information" />
+    <IDS_CHANGPWD text="change Password" />
+    <IDS_MOTIONDT text="Motion Detection" />
+    <IDS_MIRROR_FLIP text="Mirror flip" />
+    <IDS_POWERFREQ text="Power frequency" />
+    <IDS_VOLUMESET text="Volume setting" />
+    <IDS_SHARED text="Sharing device" />
+    
+    <IDS_VOLUM text="Speaker volume"/>
+    
+    <!-- Add Bell 1 -->
+    <IDS_ADD1_TITLE text="Ready to add"/>
+    <IDS_REDLEDFLASH text="Red flashing"/>
+    <IDS_REDLEDNFLASH text="Red light is not blinking"/>
+    <IDS_CATREDLED text="Please check whether the red bell flashes red"/>
+    <IDS_ADDLINE text="Add online device"/>
+    <IDS_DEVISEXIST text="The device already exists"/>
+    
+    
+    <!-- Add Bell 1+2 -->
+    <IDS_ADD1_2_TITLE text="Enter UID information"/>
+    
+    <!-- Add Bell 2 -->
+    <IDS_ADD2_TITLE text="Configure WIFI information" />
+    <IDS_INPUTWIFI_TIP text="Please enter WIFI password" />
+    <IDS_WIFI_CFG text="Wi-Fi network requirements" />
+    <IDS_CONNECT_WIFI text="Connect WIFI" />
+    <IDS_INPUTWIFI_SSID text="Enter SSID information" />
+    <IDS_INPUTWIFI_PWD text="Enter wifi password" />
+    
+    <!-- Add Bell 2+3 -->
+    <IDS_ADD2_3_TITLE text="Enter the access code"/>
+    
+    <!-- Add Bell 3 -->
+    <IDS_ADD3_TITLE text="Set access password"/>
+    <IDS_PASSWORD_TIP text="For security reasons, please set the access password"/>
+    
+    <!-- Add Bell 4 -->
+    <IDS_ADD4_TITLE text="Connect to a wireless network"/>
+    <IDS_CFGING text="Configuring WIFI"/>
+    <IDS_TIMER_TS text="Remaining: %@ seconds"/>
+    <IDS_CFG_TIP text="It may take up to 3 minutes to complete the connection"/>
+    
+    <!-- Add Bell 5 -->
+    <IDS_ADD5_TITLE text="Configure doorbell name"/>
+    <IDS_HEAD_DOOR text="Front door"/>
+    <IDS_TAIL_DOOR text="back door"/>
+    <IDS_USR_DOOR text="customize"/>
+    
+    <!-- setting info -->
+    <IDS_DEVNAME text="Device name" />
+    <IDS_SYSVER text="Firmware version" />
+    
+    <!-- MJFresh -->
+    <MJRF_LASTUPDATA text="latest update：%@"/>
+    <MJRF_TDUDATA text="MM-dd HH:mm"/>
+    <MJRF_LREFRESH text="Pull down to refresh"/>
+    <MJRF_UREFRESH text="Release the refresh immediately"/>
+    <MJRF_REFRESHING text="Refreshing..."/>
+</lan>

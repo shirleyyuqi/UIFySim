@@ -1,0 +1,82 @@
+<window>
+    <LayoutView style="1">
+        <TabLayout name="tab">
+            <LayoutView style="1">
+                <LayoutView bkcolor="#FF12b7f5" height="20"></LayoutView>
+                <LayoutView style="1" bkcolor="#FF12b7f5" height="45">
+                    <LayoutView>
+                        <LayoutView width="8"></LayoutView>
+                        <Option name="changelist" normalImage="device_list_1.png" selectedImage="device_list_2.png" width="36" height="33" margin="0,3,0,0"/>
+                        <Text align="center" text="IDS_DEVLIST"/>
+                        <Button name="add" width="36" height="36" normalImage="icon_add" margin="-8,3,0,0"></Button>
+                    </LayoutView>
+                </LayoutView>
+                <LayoutView style="3" >
+                    <List name="camList2" itemheight="80" itemlinestyle="0" dataType="1" itemselectstyle="0" itemaccessorytype="0" itemxml="camItem2" bkcolor="#FFECECEC">
+                        <ListSection></ListSection>
+                    </List>
+                    <List name="camList" itemheight="260" itemlinestyle="0" dataType="1" itemselectstyle="0" itemaccessorytype="0" itemxml="camItem" bkcolor="#FFECECEC">
+                        <ListSection></ListSection>
+                    </List>
+                </LayoutView>
+            </LayoutView>
+            <LayoutView style="1" bkcolor="#FFECECEC">
+                <LayoutView bkcolor="#FF12b7f5" height="20"></LayoutView>
+                <LayoutView style="1" bkcolor="#FF12b7f5" height="45">
+                    <LayoutView bkcolor="#FF12b7f5">
+                        <Text align="center" text="IDS_LIB"/>
+                    </LayoutView>
+                </LayoutView>
+                <LayoutView height="10"></LayoutView>
+                <List scroll="false" name="mediaList" itemheight="60" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="1" height="178">
+                    <ListSection>
+                        <ListElement>
+                            <ImageView src="cut_pic.png" mode="1" width="30" margin="10,0,0,0"></ImageView>
+                            <Text name="tname" text="IDS_PIC" textIndent="20" textcolor="#FF555555" font="18"/>
+                        </ListElement>
+                        <ListElement>
+                            <ImageView src="cut_video.png" mode="1" width="30" margin="10,0,0,0"></ImageView>
+                            <Text name="tname" text="IDS_REC" textIndent="20" textcolor="#FF555555" font="18"/>
+                        </ListElement>
+                        <ListElement>
+                            <ImageView src="cut_video.png" mode="1" width="30" margin="10,0,0,0"></ImageView>
+                            <Text name="tname" text="IDS_MSG" textIndent="20" textcolor="#FF555555" font="18"/>
+                        </ListElement>
+                    </ListSection>
+                </List>
+            </LayoutView>
+            <LayoutView style="1" bkcolor="#FFECECEC">
+                <LayoutView style="3" height="220">
+                    <ImageView src="me_bg.jpg" mode="0"></ImageView>
+                    <LayoutView style="1" >
+                        <LayoutView height="20"/>
+                        <Text name="tname" height="50" text="IDS_USERCENTER" align="center" textcolor="#FF000000" font="18"/>
+                        <ImageView src="me_icon.png" mode="1" height="80"></ImageView>
+                    </LayoutView>
+                </LayoutView>
+                <LayoutView height="10"></LayoutView>
+                <List scroll="false" name="list" itemheight="60" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="1" height="60">
+                    <ListSection>
+                        <!--<ListElement>
+                            <ImageView src="me_network.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                            <Text name="tname" text="IDS_NETCONFIG" textIndent="20" textcolor="#FF555555" font="18"/>
+                        </ListElement>-->
+                        <ListElement tag="1">
+                            <ImageView src="me_setting.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                            <Text name="tname" text="IDS_SETTING" textIndent="20" textcolor="#FF555555" font="18"/>
+                        </ListElement>
+                    </ListSection>
+                </List>
+            </LayoutView>
+        </TabLayout>
+        <LayoutView height="1" bkcolor="#FFAAAAAA"></LayoutView>
+        <LayoutView height="7" ></LayoutView>
+        <LayoutView height="37" >
+            <Option mode="1" label="10 IDS_VIDEO 10 center #FFAAAAAA #FF0000AA" normalImage="icon_device_normal" selectedImage="icon_device_press" group="a" tag="0" selected="1"/>
+            <Option mode="1" label="10 IDS_LIB 10 center #FFAAAAAA #FF0000AA" normalImage="icon_square_normal" selectedImage="icon_square_pressed" group="a" tag="1"/>
+            <Option mode="1" label="10 IDS_MY 10 center #FFAAAAAA #FF0000AA" normalImage="icon_person_normal" selectedImage="icon_person_press" group="a" tag="2"/>
+        </LayoutView>
+        <LayoutView height="3"></LayoutView>
+    </LayoutView>
+    <JSScript src="main" />
+</window>

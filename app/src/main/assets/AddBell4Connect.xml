@@ -1,0 +1,22 @@
+<window>
+    <LayoutView style="1" bkcolor="#FFFFFFFF">
+        <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#FF12b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text text="IDS_ADD4_TITLE" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView height="10"/>
+        <LayoutView style="1" inset="20, 0, 20, 20">
+            <Text text="IDS_CFGING" align="center" height="80"/>
+            <LayoutView >
+                <Gif name="wifi" mode="1" src="wifi" />
+            </LayoutView>
+            <Text text="IDS_CFG_TIP" align="center" height="45"/>
+        </LayoutView>
+    </LayoutView>
+</window>

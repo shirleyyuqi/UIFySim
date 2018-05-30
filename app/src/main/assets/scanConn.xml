@@ -1,0 +1,36 @@
+<window>
+    <LayoutView style="1" bkcolor="#00FFFFFF">
+        <LayoutView style="1" bkcolor="#00000000" height="65">
+            <LayoutView height="20"/>
+            <LayoutView bkcolor="#0012b7f5">
+                <LayoutView width="80">
+                    <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                </LayoutView>
+                <Text text="" align="center" font="19" textcolor="#ffffffff"/>
+                <LayoutView width="80"></LayoutView>
+            </LayoutView>
+        </LayoutView>
+        <LayoutView style="1">
+            <LayoutView height="140"></LayoutView>
+            <LayoutView style="3" height="242">
+                <!--<LayoutView>
+                    <ImageView name="line" src="scan_line" mode="1" height="9"></ImageView>
+                </LayoutView>
+                <ImageView src="capture.png" mode="1"></ImageView>-->
+            </LayoutView>
+            <LayoutView style="1">
+                <LayoutView></LayoutView>
+                <LayoutView height="70">
+                    <LayoutView width="30"></LayoutView>
+                    <Button name="photo" mode="2" normalImage="scan_photo_normal.png" selectImage="scan_photo_pressed.png" width="90" text="IDS_ZBAR_PHOTO" textcolor="#FFFFFFFF" align="bottom 20 center 15"></Button>
+                    <LayoutView></LayoutView>
+                    <Option name="flash" mode="1" label="15 IDS_ZBAR_LED 15 center #FFFFFFFF #FFFFFFFF" normalImage="scan_flashlight_normal.png" selectedImage="scan_flashlight_pressed.png" width="90" height="70"></Option>
+                    <LayoutView></LayoutView>
+                    <Button name="add" mode="2" normalImage="scan_edit_normal.png" selectImage="scan_edit_pressed.png" width="90" height="70" textcolor="#FFFFFFFF" text="IDS_ZBAR_ADD" align="bottom 20 center 15"></Button>
+                    <LayoutView width="30"></LayoutView>
+                </LayoutView>
+                <LayoutView></LayoutView>
+            </LayoutView>
+        </LayoutView>
+    </LayoutView>
+</window>

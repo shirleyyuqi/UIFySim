@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lan>
+    <IDS_NETCONFIG text="网络配置"/>
+    <IDS_SETTING text="系统设置"/>
+    <IDS_USERCENTER text="个人中心"/>
+    <IDS_VIDEO text="门铃"/>
+    <IDS_MY text="我的"/>
+    <IDS_LIB text="Demo"/>
+    <IDS_CANCEL text="取消"/>
+    <IDS_OK text="确定"/>
+    <IDS_DEVLIST text="设备列表"/>
+    <IDS_PIC text="照片"/>
+    <IDS_REC text="录像"/>
+    <IDS_ONLINE text="在线"/>
+    <IDS_OFFLINE text="离线"/>
+    <IDS_QUERIING text="查询中"/>
+    <IDS_ZBAR_PHOTO text="二维码识别"/>
+    <IDS_ZBAR_LED text="补光"/>
+    <IDS_ZBAR_ADD text="手动输入"/>
+    <IDS_MSG text="消息"/>
+    <IDS_PUSHMSG0 text="接听"/>
+    <IDS_PUSHMSG1 text="拒接"/>
+    
+    <IDS_APPNAME text="APP 客户端"/>
+    <IDS_APPVER text="版本号:1.0"/>
+    <IDS_WARN text="警告" />
+    <IDS_DELETE_TIP text="你是否删除该设备?设备删除时该设备所以相关信息将会全部清除，请谨慎操作"/>
+    
+    <IDS_PUSH_TOLIVE text="滑动接听"/>
+    
+    <IDS_ABOUTUS text="关于我们"/>
+    <IDS_LANCHANGE text="语言切换"/>
+    <IDS_ALLOWWIF text="允许在wifi下使用"/>
+    <IDS_ALLOW34G text="允许在3G/4G下使用"/>
+    
+    <IDS_OLDPWD text="原密码"/>
+    <IDS_NEWPWD text="新密码"/>
+    <IDS_PASSWORD text="密码"/>
+    <IDS_PASSWORD_SURE text="确认密码"/>
+    <IDS_NEXT text="下一步"/>
+    <IDS_ENABLE text="启用"/>
+    <IDS_SENSITIVITY text="灵敏度"/>
+    <IDS_HIGHT text="高"/>
+    <IDS_MIDDLE text="中"/>
+    <IDS_LOWER text="低"/>
+    
+    <IDS_X0 text="日"/>
+    <IDS_X1 text="一"/>
+    <IDS_X2 text="二"/>
+    <IDS_X3 text="三"/>
+    <IDS_X4 text="四"/>
+    <IDS_X5 text="五"/>
+    <IDS_X6 text="六"/>
+    <IDS_TM text="HH时 mm分"/>
+    <IDS_TM2 text="%d时 %d分"/>
+    
+    <IDS_STARTTM text="开始时间"/>
+    <IDS_ENDTM text="结束时间"/>
+    <IDS_COMP text="完成" />
+    
+    <IDS_FLIP text="翻转"/>
+    <IDS_MIRROR text="镜像"/>
+    <IDS_SAVE text="保存"/>
+    
+    <!-- sd card info -->
+    <IDS_CARDSIZE text="存储卡大小"/>
+    <IDS_CARDINFO text="存储卡信息"/>
+    <IDS_CARDTIME text="约可录像的时长"/>
+    <IDS_FORMAT text="格式化"/>
+    <IDS_OWRECORD text="循环录像"/>
+    <IDS_CARDTIME_V text="%d 天"/>
+    <IDS_CARDSIZE_V text="%.1f G / %.1f G"/>
+    
+    <!-- Bell Setting -->
+    <IDS_DEVINFO text="设备信息" />
+    <IDS_CHANGPWD text="修改密码" />
+    <IDS_MOTIONDT text="移动侦测" />
+    <IDS_MIRROR_FLIP text="镜像翻转" />
+    <IDS_POWERFREQ text="电源频率" />
+    <IDS_VOLUMESET text="音量设置" />
+    <IDS_SHARED text="分享设备" />
+    
+    <IDS_VOLUM text="扬声器音量"/>
+    
+    <!-- Add Bell 1 -->
+    <IDS_ADD1_TITLE text="准备添加"/>
+    <IDS_REDLEDFLASH text="红灯已闪烁"/>
+    <IDS_REDLEDNFLASH text="红灯未闪烁"/>
+    <IDS_CATREDLED text="请查看门铃红是否红灯闪烁"/>
+    <IDS_ADDLINE text="添加在线设备"/>
+    <IDS_DEVISEXIST text="该设备已存在"/>
+    
+    
+    <!-- Add Bell 1+2 -->
+    <IDS_ADD1_2_TITLE text="输入UID信息"/>
+    
+    <!-- Add Bell 2 -->
+    <IDS_ADD2_TITLE text="配置WIFI信息" />
+    <IDS_INPUTWIFI_TIP text="请输入WIFI密码" />
+    <IDS_WIFI_CFG text="Wi-Fi网络要求" />
+    <IDS_CONNECT_WIFI text="连接WIFI" />
+    <IDS_INPUTWIFI_SSID text="输入SSID信息" />
+    <IDS_INPUTWIFI_PWD text="输入wifi密码" />
+    
+    <!-- Add Bell 2+3 -->
+    <IDS_ADD2_3_TITLE text="输入访问密码"/>
+    
+    <!-- Add Bell 3 -->
+    <IDS_ADD3_TITLE text="设置访问密码"/>
+    <IDS_PASSWORD_TIP text="出于安全考虑，请设置访问密码"/>
+    
+    <!-- Add Bell 4 -->
+    <IDS_ADD4_TITLE text="连接到无线网络"/>
+    <IDS_CFGING text="正在配置WIFI"/>
+    <IDS_TIMER_TS text="剩余: %@ 秒"/>
+    <IDS_CFG_TIP text="最长可能需要3分钟完成连接"/>
+    
+    <!-- Add Bell 5 -->
+    <IDS_ADD5_TITLE text="配置门铃名称"/>
+    <IDS_HEAD_DOOR text="前门"/>
+    <IDS_TAIL_DOOR text="后门"/>
+    <IDS_USR_DOOR text="自定义"/>
+    
+    <!-- setting info -->
+    <IDS_DEVNAME text="设备名称" />
+    <IDS_SYSVER text="固件版本" />
+    
+    <!-- MJFresh -->
+    <MJRF_LASTUPDATA text="最后更新：%@"/>
+    <MJRF_TDUDATA text="MM-dd HH:mm"/>
+    <MJRF_LREFRESH text="下拉可以刷新"/>
+    <MJRF_UREFRESH text="松开立即刷新"/>
+    <MJRF_REFRESHING text="正在刷新..."/>
+</lan>

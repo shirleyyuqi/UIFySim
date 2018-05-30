@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fyuilib.luoc.com.activity">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fyuilib.luoc.com.activity.SysSettingActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.SDCardActivity" />
+        <activity android:name="fyuilib.luoc.com.activity.LiveActivity" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.MotionActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.DevInfoSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.ImageSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.PasswordSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.SharedQRCode" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.VolumeSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.PowerFreqSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.camsetting.BellSetting" />
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell1"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell1_2_UIDActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell2_3_PWDActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell2_WifiActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell3_PWDActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell4_ConnectActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.AddBell5_NameActivity"/>
+        <activity android:name="fyuilib.luoc.com.activity.addbell.QRScanActivity"/>
+    </application>
+
+</manifest>

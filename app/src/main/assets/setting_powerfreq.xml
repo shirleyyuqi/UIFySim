@@ -1,0 +1,46 @@
+<window>
+    <LayoutView style="3">
+        <LayoutView style="1" bkcolor="#FFFFFFFF">
+            <LayoutView style="1" bkcolor="#FF12b7f5" height="65">
+                <LayoutView height="20"/>
+                <LayoutView bkcolor="#FF12b7f5">
+                    <LayoutView width="80">
+                        <Button name="back" width="35" height="35" normalImage="back_normal" margin="10,5,0,0"></Button>
+                    </LayoutView>
+                    <Text name="btitle" text="IDS_POWERFREQ" align="center" font="19" textcolor="#ffffffff"/>
+                    <LayoutView width="80"></LayoutView>
+                </LayoutView>
+            </LayoutView>
+            <LayoutView height="10"/>
+            <List name="list" scroll="false" itemheight="50" itemlinestyle="1" itemselectstyle="0" itemaccessorytype="1" height="50" bkcolor="#FFECECEC">
+                <ListSection>
+                    <ListElement>
+                        <ImageView src="ic_dev_setting_freq.png" mode="1" width="20" margin="10,0,0,0"></ImageView>
+                        <Text text="IDS_POWERFREQ" textIndent="20" textcolor="#FF555555" font="18"/>
+                        <Text text="50HZ" name="Freq" align="right" textIndent="20" textcolor="#FF555555" font="16"/>
+                        <LayoutView width="30"/>
+                    </ListElement>
+                </ListSection>
+            </List>
+            <LayoutView height="30"/>
+            <Button name="nextBt" text="IDS_SAVE" corner="5" align="center" bkcolor="#FF30C37C" hotcolor="#FF269C63" height="45" margin="20,0,40,0"/>
+        </LayoutView>
+        <LayoutView name="alert" bkcolor="#55888888" tapEvent="1" hidden="true">
+            <List float="true" scroll="false" name="listFreq" itemheight="60" itemlinestyle="1" itemselectstyle="1" itemaccessorytype="0" height="190" bkcolor="#FFECECEC" deselect="1">
+                <ListSection>
+                    <ListElement>
+                        <Text text="50HZ" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                    <ListElement>
+                        <Text text="60HZ" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                </ListSection>
+                <ListSection secheight="10,0">
+                    <ListElement>
+                        <Text text="IDS_CANCEL" align="center" textcolor="#FF555555" font="18"/>
+                    </ListElement>
+                </ListSection>
+            </List>
+        </LayoutView>
+    </LayoutView>
+</window>
